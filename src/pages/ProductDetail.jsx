@@ -7,7 +7,7 @@ import ItemDetails from '../components/itemDetails'
 const ProductDetail = () => {
   const { product_id } = useParams()
   const [product] = Object.keys(content).flatMap((key) => {
-    let res = content[key].filter((e) => e.id == product_id)
+    let res = content[key].filter((e) => e.id === Number(product_id))
     if (res.length) res[0]['type'] = key
     return res
   })

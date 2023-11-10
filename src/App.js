@@ -28,7 +28,7 @@ function App() {
             onClick={() => navigate('/Home')}
             title='Back to Home'
           >
-            <img src={require('./assets/logo.png')} height={'100%'} />
+            <img src={require('./assets/logo.png')} height={'100%'} alt='logo' />
           </div>
         </div>
       </header>

@@ -8,7 +8,7 @@ const ViewAddedProducts = () => {
   const allProducts = basket.map((id) =>
     Object.values(content)
       .flat()
-      .find((o) => o.id == id)
+      .find((o) => o.id === id)
   )
   return (
     <div

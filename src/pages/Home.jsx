@@ -47,12 +47,12 @@ const Home = () => {
             })),
           }}
         >
-          <a style={{ fontSize: '20px' }}>
+          <span style={{ fontSize: '20px' }}>
             <Space>
               {category.toUpperCase()}
               <DownOutlined />
             </Space>
-          </a>
+          </span>
         </Dropdown>
         <div
           style={{

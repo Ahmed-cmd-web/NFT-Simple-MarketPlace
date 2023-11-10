@@ -1,0 +1,14 @@
+.subtotal_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtotal {
+  height: fit-content;
+  flex: 0.3;
+  margin: 20px;
+}
+
+.summary {
+  border-top: 1px solid gainsboro;
+}
